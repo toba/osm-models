@@ -6,6 +6,7 @@ export { OsmElement } from './base';
 
 import { Way } from './way';
 import { Relation } from './relation';
+import { Node } from './node';
 
 export const enum ItemType {
    Node = 'node',
