@@ -1,4 +1,4 @@
-export { Way, TravelMode } from './way';
+export { Way, WayType, TravelMode } from './way';
 export { Node } from './node';
 export { Relation, RestrictionType, Role, RelationMember } from './relation';
 export { Tag, TagMap, Access } from './tag';
