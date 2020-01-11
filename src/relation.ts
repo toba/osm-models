@@ -1,4 +1,5 @@
 import { TagMap } from './tag';
+import { Node } from './node';
 import { OsmElement } from './base';
 
 export interface RelationMember {
