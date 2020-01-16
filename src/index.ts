@@ -7,6 +7,7 @@ export { Node } from './node';
 export { Relation, RestrictionType, Role, RelationMember } from './relation';
 export { Tag, TagMap, Access } from './tag';
 export { OsmElement } from './base';
+export * from './overpass';
 
 export const enum ItemType {
    Node = 'node',

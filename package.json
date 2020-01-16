@@ -1,7 +1,7 @@
 {
    "name": "@toba/osm-models",
    "description": "Toba OSM Models",
-   "version": "1.0.4",
+   "version": "1.1.0",
    "private": false,
    "publishConfig": {
       "access": "public"
