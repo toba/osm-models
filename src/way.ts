@@ -1,5 +1,5 @@
-import { OsmElement } from './base';
-import { Node } from './node';
+import { OsmElement } from './base'
+import { Node } from './node'
 
 /**
  * Collection of nodes representing a way of travel.
@@ -14,7 +14,7 @@ import { Node } from './node';
  * @see https://wiki.openstreetmap.org/wiki/Way
  */
 export interface Way extends OsmElement {
-   nodes: Node[];
+   nodes: Node[]
 }
 
 /**

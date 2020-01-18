@@ -1,12 +1,12 @@
-export { Way, WayType, TravelMode } from './way';
-export { Node } from './node';
-export { Relation, RestrictionType, Role, RelationMember } from './relation';
-export { Tag, TagMap, Access } from './tag';
-export { OsmElement } from './base';
+export { Way, WayType, TravelMode } from './way'
+export { Node } from './node'
+export { Relation, RestrictionType, Role, RelationMember } from './relation'
+export { Tag, TagMap, Access } from './tag'
+export { OsmElement } from './base'
 
-import { Way } from './way';
-import { Relation } from './relation';
-import { Node } from './node';
+import { Way } from './way'
+import { Relation } from './relation'
+import { Node } from './node'
 
 export const enum ItemType {
    Node = 'node',
@@ -15,10 +15,10 @@ export const enum ItemType {
 }
 
 /** Decimal latitude and longitude. */
-export type Point = [number, number];
+export type Point = [number, number]
 
 /** Left, bottom, right, top */
-export type BoundingBox = [number, number, number, number];
+export type BoundingBox = [number, number, number, number]
 
 /**
  * Box-bounded OSM data download including
@@ -35,8 +35,8 @@ export type BoundingBox = [number, number, number, number];
  */
 export interface AreaData {
    /** Nodes keyed to their ID */
-   nodes: Map<number, Node>;
+   nodes: Map<number, Node>
    /** Ways keyed to their ID */
-   ways: Map<number, Way>;
-   relations: Relation[];
+   ways: Map<number, Way>
+   relations: Relation[]
 }

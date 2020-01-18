@@ -1,11 +1,11 @@
-import { TagMap } from './tag';
-import { Node } from './node';
-import { OsmElement } from './base';
+import { TagMap } from './tag'
+import { Node } from './node'
+import { OsmElement } from './base'
 
 export interface RelationMember {
-   nodes: Node[];
+   nodes: Node[]
    /** @see https://wiki.openstreetmap.org/wiki/Relation#Roles */
-   role?: Role;
+   role?: Role
 }
 
 /**
@@ -14,12 +14,12 @@ export interface RelationMember {
  * @see https://wiki.openstreetmap.org/wiki/Relation:restriction
  */
 export interface Relation extends OsmElement {
-   members: RelationMember[];
+   members: RelationMember[]
    /**
     * Tags applied to relation. XPath OSM parsing only allows relations that
     * have tags.
     */
-   tags: TagMap;
+   tags: TagMap
 }
 
 /**

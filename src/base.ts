@@ -1,4 +1,4 @@
-import { TagMap } from './tag';
+import { TagMap } from './tag'
 
 /**
  * Properties common to OSM nodes, ways and relations.
@@ -21,13 +21,13 @@ export interface OsmElement {
     * each created object, and will return a mapping from the negative
     * identifiers used to their assigned positive identifiers).
     */
-   id: number;
+   id: number
    //visible?: boolean;
    /**
     * Time of the last modification
     * @example "2016-12-31T23:59:59.999Z"
     */
-   timestamp?: number;
+   timestamp?: number
    /**
     * All types of data element (nodes, ways and relations), as well as
     * changesets, can have tags. Tags describe the meaning of the particular
@@ -52,5 +52,5 @@ export interface OsmElement {
     *
     * @see https://wiki.openstreetmap.org/wiki/Tags
     */
-   tags?: TagMap;
+   tags?: TagMap
 }

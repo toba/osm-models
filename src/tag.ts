@@ -56,4 +56,4 @@ export const enum Access {
 }
 
 /** Values keyed to tags. */
-export type TagMap = { [key: string]: string | undefined };
+export type TagMap = { [key: string]: string | undefined }

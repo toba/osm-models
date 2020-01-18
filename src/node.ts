@@ -1,4 +1,4 @@
-import { OsmElement } from './base';
+import { OsmElement } from './base'
 
 /**
  * A node is one of the core elements in the OpenStreetMap data model. It
@@ -17,17 +17,17 @@ export interface Node extends OsmElement {
     * Latitude coordinate in degrees (North of equator is positive) using the
     * standard WGS84 projection
     */
-   lat: number;
+   lat: number
    /**
     * Longitude coordinate in degrees (East of Greenwich is positive) using the
     * standard WGS84 projection. Note that the geographic poles will be exactly
     * at latitude ±90 degrees but in that case the longitude will be set to an
     * arbitrary value within this range.
     */
-   lon: number;
+   lon: number
    /** Altitude or elevation */
-   ele?: number;
-   open?: boolean;
-   date?: number;
-   point(): [number, number];
+   ele?: number
+   open?: boolean
+   date?: number
+   point(): [number, number]
 }
