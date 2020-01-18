@@ -54,3 +54,4 @@ export interface OsmElement {
     */
    tags?: TagMap
 }
+
