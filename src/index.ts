@@ -2,7 +2,7 @@ import { Way } from './way'
 import { Relation } from './relation'
 import { Node } from './node'
 
-export { Way, WayType, TravelBy as TravelMode } from './way'
+export { Way, WayType, TravelBy } from './way'
 export { Node } from './node'
 export { Relation, RestrictionType, Role, RelationMember } from './relation'
 export { Tag, TagMap, Access } from './tag'
