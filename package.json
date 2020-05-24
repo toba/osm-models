@@ -1,7 +1,7 @@
 {
    "name": "@toba/osm-models",
    "description": "Toba OSM Models",
-   "version": "1.1.0",
+   "version": "1.1.1",
    "private": false,
    "publishConfig": {
       "access": "public"
@@ -24,7 +24,7 @@
       "test": "jest --coverage"
    },
    "devDependencies": {
-      "@toba/develop": "^6.8.1"
+      "@toba/develop": "^6.8.2"
    },
    "repository": {
       "type": "git",

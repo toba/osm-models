@@ -103,12 +103,12 @@ export const enum WayType {
 /**
  * Modes of travel.
  */
-export const enum TravelMode {
+export const enum TravelBy {
    Car = 'car',
    Bus = 'bus',
    Bicycle = 'bicycle',
    Horse = 'horse',
-   Walk = 'foot',
+   Foot = 'foot',
    Motorcycle = 'motorcycle',
    Tram = 'tram',
    Train = 'train'
